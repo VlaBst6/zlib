@@ -13,6 +13,8 @@
 *.gcno
 *.gcov
 
+*.bak
+
 /example
 /example64
 /examplesh
@@ -23,3 +25,8 @@
 /zlib.pc
 
 .DS_Store
+
+/contrib/vstudio/vc9
+/contrib/vstudio/vc10
+/contrib/vstudio/vc11
+/contrib/vstudio/vc12/x86
