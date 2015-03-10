@@ -1,3 +1,17 @@
+My PhotoDemon project (https://github.com/tannerhelland/PhotoDemon) relies on zLib for a variety of tasks.  The original WAPI version of zLib is grossly of date, so I've been custom compiling my own copy for some time.  Getting zLib to compile under VS 2013 or later is a nightmare, so I figured I'd dump my work to this repository in case others find it helpful.
+
+I will try to clean things up in the future, especially removing files and folders irrelevant to building a Win32 zLib DLL.
+
+Besides getting the DLL to compile in stdcall mode, my version includes a few other changes.  The core zLib repository emphasizes portability, whereas I'm more interested in performance.  To that end, I'll occasionally patch in performance-related updates as I find them.
+
+Everything in this repository is USE AT YOUR OWN RISK, and I strongly recommend reviewing the original zLib license and README, below.
+
+----
+
+(Original zLib README follows.  Note that you can obtain a vanilla version of the official zLib repository at https://github.com/madler/zlib)
+
+----
+
 ZLIB DATA COMPRESSION LIBRARY
 
 zlib 1.2.8 is a general purpose data compression library.  All the code is
