@@ -4,6 +4,8 @@ I will try to clean things up in the future, especially removing files and folde
 
 Besides getting the DLL to compile in stdcall mode, my version includes a few other changes.  The core zLib repository emphasizes portability, whereas I'm more interested in performance.  To that end, I'll occasionally patch in performance-related updates as I find them.
 
+You can find the VS 2013 solution in the /contrib/vstudio/vc12.  Thank you to GitHub user @dgmz for a [pull request on the primary zLib project](https://github.com/madler/zlib/pull/71) that was very helpful in getting everything working under VS 2013.
+
 Everything in this repository is USE AT YOUR OWN RISK, and I strongly recommend reviewing the original zLib license and README, below.
 
 ----
